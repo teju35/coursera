@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<title>Assignment</title>
+<body>
+<h1> Our Menu </h1>
+<style>
+* {
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+div.ourmenu {
+			background-color: gray;
+			border: 3px solid black;
+			margin-left: 1%;
+}
+div.ourmenu>p.menu {
+			clear : right;
+	
+		}
+.c, .b , .s {
+			position: relative;
+			top: -1px;
+			right: -1px;
+			border: 3px solid black;
+			padding: 5px ;
+			float: right;
+}
+div.ourmenu>div.c {
+			background-color: pink;
+}
+div.ourmenu>div.b {
+			background-color: red;
+}
+div.ourmenu>div.s {
+			background-color: yellow;
+}
+div>p.menu {
+			margin-left: 10px;
+			clear : right;
+}
+@media (min-width: 992px) {
+	div.ourmenu {
+				width: 30%;
+				float: left;
+			}
+}			
+
+@media (min-width: 768px) and (max-width: 991px) {
+			div.ourmenu{
+				float: left;
+}
+div.c-ourmenu , div.b-ourmenu {
+				width: 40%;
+				margin-bottom: 10px
+}
+div.s-ourmenu {
+				width: 85%;
+				clear: left;
+}
+div.s-ourmenu>p{
+				width: 110%;
+			}
+}
+
+@media (max-width: 767px) { 
+div.ourmenu{
+float: left;
+clear: both;
+margin: 5% ;
+		}
+}
+</style>
+<div class="ourmenu c-ourmenu"> 
+<div class="c">CHICKEN</div> 
+<p class="menu"> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</div>		
+<div class="ourmenu b-ourmenu"> 
+<div class="b">BEEF</div> 
+<p class="menu"> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</div>	
+<div class="ourmenu s-ourmenu">
+<div class="s">SUSHI</div> 
+<p class="menu"> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</div>	
+</body>
+</html>
