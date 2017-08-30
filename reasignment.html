@@ -2,8 +2,8 @@
 <html>
 <head>
 <title>Assignment</title>
-<body>
-<h1> Our Menu </h1>
+<body bgcolor="powderblue">
+<h1 style="font-style: italic;"> Our Menu </h1>
 <style>
 * {
 	box-sizing: border-box;
@@ -12,11 +12,11 @@ h1 {
 	text-align: center;
 }
 div.ourmenu {
-			background-color: gray;
+			background-color: lightgray;
 			border: 3px solid black;
 			margin-left: 1%;
 }
-div.ourmenu>p.menu {
+p.menu {
 			clear : right;
 	
 		}
@@ -24,20 +24,20 @@ div.ourmenu>p.menu {
 			position: relative;
 			top: -1px;
 			right: -1px;
-			border: 3px solid black;
-			padding: 5px ;
+			border: 2px solid black;
+			padding: 4px ;
 			float: right;
 }
-div.ourmenu>div.c {
+div.c {
 			background-color: pink;
 }
-div.ourmenu>div.b {
+div.b {
 			background-color: red;
 }
-div.ourmenu>div.s {
+div.s {
 			background-color: yellow;
 }
-div>p.menu {
+p.menu {
 			margin-left: 10px;
 			clear : right;
 }
@@ -52,24 +52,25 @@ div>p.menu {
 			div.ourmenu{
 				float: left;
 }
-div.c-ourmenu , div.b-ourmenu {
+div.c-ourmenu {
 				width: 40%;
-				margin-bottom: 10px
+				margin-bottom: 5px
 }
-div.s-ourmenu {
-				width: 85%;
-				clear: left;
+div.b-ourmenu {
+				width: 40%;
+				margin-bottom: 5px
 }
-div.s-ourmenu>p{
-				width: 110%;
+div.s-ourmenu{
+				width: 80%;
+				margin-bottom: 5px
 			}
 }
 
 @media (max-width: 767px) { 
 div.ourmenu{
-float: left;
-clear: both;
-margin: 5% ;
+	width: 80%;
+	float: left;
+	margin: 5px;
 		}
 }
 </style>
